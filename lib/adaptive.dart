@@ -10,4 +10,6 @@ class AdaptiveIndicator extends StatelessWidget {
     if (os == 'android') return const CircularProgressIndicator();
     return const CupertinoActivityIndicator();
   }
+
+  //hello
 }
